@@ -62,7 +62,7 @@
     letter-spacing: 0.15px;
 }
 
-.saerch-bar{
+.search-bar{
     border-radius: 6px;
     background: #B8C2CE;
 
@@ -75,11 +75,34 @@ align-items: center;
 gap: -12px;
 }
 
-.saerch-bar p{
-    /* color: #FFF; */
+.search-bar p{
+    width: 52px;
+flex-shrink: 0;
+
+    color: #FFF;
     font-family: "DM Sans";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 42px; /* 300% */
-    letter-spacing: 0.14px;}
+    letter-spacing: 0.14px;
+}
+
+.search-bar span{
+    width: 39px;
+height: 39px;
+flex-shrink: 0;
+}
+
+.hero{
+
+}
+
+.basketball-img img{
+    width: 716px;
+height: 513px;
+
+opacity: 0.08;
+background: url(<path-to-image>) lightgray -15.911px -110.492px / 102.222% 141.538% no-repeat;
+mix-blend-mode: luminosity;
+}
