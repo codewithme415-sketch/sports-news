@@ -263,6 +263,8 @@ margin: auto;
 margin-top: 70px;
 display: flex;
 align-items: center;
+margin-bottom:70px;
+
 
 justify-content: space-between;
 }
@@ -485,4 +487,145 @@ font-style: normal;
 font-weight: 835;
 line-height: normal;
 text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* football branch */
+
+.football-box{
+    width: 1168px;
+height: 618px;
+border-radius: 6px;
+opacity: 0.6;
+background: #EBEEF3;
+margin: auto;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.ball-img{
+    border-radius: 6px;
+/* opacity: 0.2; */
+background: #EBEEF3;
+width: 1168px;
+height: 518px;
+}
+
+.ball-img-img{
+    width: 1168px;
+height: 518px;
+border-radius: 6px 6px 0 0;
+background:
+linear-gradient(to right,rgba(0, 0, 0, 0.718),rgba(104, 104, 9, 0.229),rgba(0, 0, 0, 0.56)),
+
+url(/assets/source_two-opposing-players-give-handshake-end-game.jpg) 0px -0.025px / 100% 150.01% no-repeat;
+position: relative;
+}
+
+.top-1{
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    z-index: 1;
+
+    display: flex;
+width: 107.696px;
+height: 36.088px;
+/* padding: 29px 26px; */
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+border-radius: 3px;
+border: 1px solid #EBEEF3;
+}
+
+.top-1 h3{
+
+    height: 26px;
+    width: 76px;
+    color: #EBEEF3;
+font-feature-settings: 'liga' off, 'clig' off;
+/* font-family: "DM Sans"; */
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+
+}
+.bottom-1{
+    position: absolute;
+    bottom: 40px;
+left: 40px;
+    z-index: 10;
+
+
+}
+
+.bottom-1 h5{
+    width: 375px;
+height: 14px;
+color: #F9FAFC;
+/* font-family: "DM Sans"; */
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+letter-spacing: 1px;
+margin-bottom: 10px;
+line-height: 100.9%; /* 18.162px */
+}
+
+.bottom-1 h1{
+    width: 760px;
+height: 112px;
+color: #F9FAFC;
+/* font-family: "Sequel Sans"; */
+font-size: 36px;
+font-style: normal;
+font-weight: 905;
+line-height: 43px; /* 119.444% */
+text-transform: uppercase;
+}
+
+.bottom-1 h4{
+    width: 697px;
+    color: #FFF;
+/* font-family: "DM Sans"; */
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
 }
