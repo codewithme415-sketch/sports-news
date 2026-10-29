@@ -224,3 +224,265 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* trenbding news css */
+
+
+.trending-news{
+    width: 1170px;
+height: 609px;
+transform: rotate(360deg);
+border-radius: 6px;
+background: #EBEEF3;
+margin: auto;
+margin-top: 70px;
+display: flex;
+align-items: center;
+
+justify-content: space-between;
+}
+
+.news{
+
+    width: 50%;
+    height: 609px;
+
+
+}
+
+.news-heading h1{
+    color: #262626;
+/* font-family: "Sequel Sans"; */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+font-size: 28px;
+font-style: normal;
+padding: 25px 32px;
+
+font-weight: 615;
+text-transform: capitalize;
+line-height: 38px; /* 135.714% */
+
+}
+
+.news-heading{
+    height: 48px;
+    width: 288px;
+}
+
+.news-body{
+    padding: 5px 15px;
+    height: 571px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    padding-left: 34px;
+}
+
+.new-1{
+    width: 499px;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.news-img-1{
+    width: 234px;
+height: 150px;
+border-radius: 6px;
+background: url(/assets/race-hose\ 1.png) lightgray 0px -6.067px / 100% 104.089% no-repeat;
+}
+
+
+.news-written{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+align-items: flex-start;
+justify-content: flex-start;
+
+
+
+}
+
+.news-written h6{
+    width: 111px;
+    height: 10px;
+    color: rgba(38, 38, 38, 0.60);
+
+font-style: normal;
+font-weight: 500;
+line-height: 100.9%; /* 10.09px */
+}
+
+.news-written h2{
+    height: 50px;
+    width: 245px;
+    color: #262626;
+font-size: 17px;
+font-style: normal;
+font-weight: 515;
+line-height: 136.9%; /* 24.642px */
+}
+
+.news-written h4{
+    height: 45px;
+    width: 239px;
+    color: #696868;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 123.9%; /* 14.868px */
+}
+
+.line{
+    width: 279px;
+height: 1px;
+background: #B8C2CE;
+position: absolute;
+left: 285px;
+top: 200px;
+}
+
+.line-1{
+    width: 279px;
+height: 1px;
+background: #B8C2CE;
+position: absolute;
+left: 285px;
+top: 375px;
+
+}
+
+.news-img-2{
+    width: 234px;
+height: 150px;
+border-radius: 6px;
+background: url(/assets/38de21d37dd5546285c6dde933f50d483c569796.jpg) lightgray -0.494px -3px / 100.423% 104.026% no-repeat;
+}
+
+
+.news-img-3{
+    width: 234px;
+height: 150px;
+border-radius: 6px;
+background: url(/assets/ff095548292e183e8a8d479a356fa882636a6e33.jpg) lightgray -0.494px -3px / 100.423% 104.026% no-repeat;
+}
+
+
+
+
+.big-img{
+    width: 570px;
+height: 609px;
+border-radius: 6px;
+opacity: 0.9;
+background: #000;
+}
+
+.big-img-img{
+    width: 570px;
+height: 609px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+border-radius: 6px;
+background: 
+linear-gradient(rgba(0, 0, 0, 0.675),rgba(0, 0, 0, 0.57),rgba(0, 0, 0, 0.702), rgba(0, 0, 0, 0.97)),
+
+url(/assets/source_sportsman-drinking-water-training-stationary-bike.jpg) lightgray -219.684px -0.785px / 160.514% 100.278% no-repeat
+;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.166),rgba(255, 255, 255, 0.377), black); */
+
+
+position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 35px;
+    left: 40px;
+
+    display: flex;
+width: 107.696px;
+height: 36.088px;
+/* padding: 29px 26px; */
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+border-radius: 3px;
+border: 1px solid #EBEEF3;
+}
+
+.top h3{
+    color: #EBEEF3;
+font-feature-settings: 'liga' off, 'clig' off;
+/* font-family: "DM Sans"; */
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    gap: 10px;
+
+
+}
+
+.bottom h5{
+    width: 272.408px;
+height: 13.798px;
+color: #FFF;
+/* font-family: "DM Sans"; */
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 100.9%; /* 18.162px */
+margin-bottom: 10px;
+}
+
+.bottom h1{
+    width: 509px;
+height: 112px;
+color: #FFF;
+/* font-family: "Sequel Sans"; */
+font-size: 36px;
+font-style: normal;
+font-weight: 835;
+line-height: normal;
+text-transform: capitalize;
+}
