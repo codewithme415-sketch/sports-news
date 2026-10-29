@@ -528,9 +528,10 @@ text-transform: capitalize;
     width: 1168px;
 height: 618px;
 border-radius: 6px;
-opacity: 0.6;
+/* opacity: 0.8; */
 background: #EBEEF3;
 margin: auto;
+position: relative;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -548,7 +549,7 @@ height: 518px;
 height: 518px;
 border-radius: 6px 6px 0 0;
 background:
-linear-gradient(to right,rgba(0, 0, 0, 0.718),rgba(104, 104, 9, 0.229),rgba(0, 0, 0, 0.56)),
+linear-gradient(to right,rgba(0, 0, 0, 0.718),rgba(0, 0, 0, 0.673),rgba(0, 0, 0, 0.678),rgba(0, 0, 0, 0.435),rgba(67, 64, 64, 0.639),rgba(28, 28, 27, 0.578),rgba(0, 0, 0, 0.56)),
 
 url(/assets/source_two-opposing-players-give-handshake-end-game.jpg) 0px -0.025px / 100% 150.01% no-repeat;
 position: relative;
@@ -628,4 +629,60 @@ font-size: 17px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 140% */
+}
+
+
+.icons{
+    position: absolute;
+    right: 0;
+
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+margin:25px ;
+}
+
+.left-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+height: 50px;
+/* transform: rotate(-180deg); */
+border-radius: 3px;
+background: #BAB8B8;
+
+}
+
+.icons p{
+    width: 35px;
+height: 35px;
+    color: #EBEEF3;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 455;
+line-height: 60px; /* 250% */
+letter-spacing: 0.24px;
+text-transform: uppercase;
+background: #000;
+border-radius: 50%;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+
+/* padding: 10px; */
+}
+
+.right-arrow{
+    width: 70px;
+height: 50px;
+border-radius: 3px;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+
+transform: rotate(-180deg);
+background-color: black;
 }
