@@ -686,3 +686,322 @@ border-radius: 3px;
 transform: rotate(-180deg);
 background-color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* recent news */
+
+.recent{
+    /* margin-top: 70px; */
+    width: 1170px;
+height: 362px;
+background: #F9FAFC;
+margin: 70px auto;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.recent-news{
+    width: 50%;
+    height: 354px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.recent-heading{
+    color: #262626;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-size: 26px;
+font-style: normal;
+font-weight: 415;
+line-height: 38px; /* 135.714% */
+width: 166px;
+height: 38px;
+margin-bottom:6px ;
+
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.recent-heading h2{
+
+color: #262626;
+/* font-family: "Sequel Sans"; */
+font-size: 26px;
+font-style: normal;
+font-weight: 615;
+line-height: 38px; /* 135.714% */
+}
+
+.recent-box{
+     width: 100%;
+    height: 316px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+
+.club-heading{
+    color: #262626;
+font-family: "Sequel Sans";
+font-size: 28px;
+font-style: normal;
+font-weight: 415;
+line-height: 38px; /* 135.714% */
+}
+
+
+
+.recent-box-1{
+    width: 270px;
+height: 316px;
+position: relative;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recent-img{
+    width: 270px;
+height: 300px;
+border-radius: 6px;
+background: url(/assets/karate-fighters\ 1.png) lightgray -120px -2.655px / 175.556% 101.103% no-repeat;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 16px;
+border-radius: 0 0 6px 6px;
+background: linear-gradient(109deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.06) 100%);
+box-shadow: 0 0 50px -25px rgba(0, 0, 0, 0.50);
+backdrop-filter: blur(50px);
+width: 270px;
+height: 82px;
+position: absolute;
+z-index: 99;
+gap: 5px;
+top: 230px;
+}
+
+.card h6{
+    color: #EBEEF3;
+/* font-family: "DM Sans"; */
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 100.9%; /* 10.09px */
+}
+
+.card h2{
+    color: #EBEEF3;
+/* font-family: "Sequel Sans"; */
+font-size: 16px;
+font-style: normal;
+font-weight: 410;
+line-height: 123.9%; /* 19.824px */
+width: 234px;
+height: 40px;
+}
+
+.recent-box-2{
+width: 270px;
+height: 316px;
+/* transform: rotate(180deg); */
+border-radius: 6px;
+background: #EBEEF3;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 25px;
+gap: 10px;
+
+
+}
+
+
+.r-b-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.r-b-2w{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.r-b-2w h6{
+    width: 118px;
+    height: 10px;
+    color: rgba(38, 38, 38, 0.60);
+/* font-family: "DM Sans"; */
+font-size: 9px;
+font-style: normal;
+font-weight: 600;
+line-height: 100.9%; /* 10.09px */
+}
+
+.r-b-2w h2{
+    height: 40px;
+    width: 167px;
+    color: #262626;
+/* font-family: "Sequel Sans"; */
+font-size: 16px;
+font-style: normal;
+font-weight: 510;
+line-height: 123.9%; /* 19.824px */
+
+}
+
+.img-r1 {
+    width: 70px;
+height: 70px;
+border-radius: 3px;
+background: url(/assets/Image.png) lightgray 50% / cover no-repeat;
+}
+
+.img-r2 {
+    
+    width: 70px;
+height: 70px;
+border-radius: 3px;
+background: url(/assets/Image\ copy\ 2.png) lightgray 50% / cover no-repeat;
+
+}
+
+
+.img-r3{
+    
+    width: 70px;
+height: 70px;
+border-radius: 3px;
+background: url(/assets/image\ copy\ 3.png) lightgray 50% / cover no-repeat;
+
+}
+
+
+.more{
+    display: inline-flex;
+padding: 6px 12px 6px 7px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+border-radius: 3px;
+background: #B8C2CE;
+text-transform: capitalize;
+}
+
+.more h3{
+    display: flex;
+width: 47px;
+height: 16px;
+flex-direction: column;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 42px; /* 300% */
+letter-spacing: 0.14px;
+}
+
+.text{
+    width: 7.862px;
+    color: #262626;
+font-feature-settings: 'liga' off, 'clig' off;
+/* font-family: "Sequel Sans"; */
+font-size: 13px;
+font-style: normal;
+font-weight: 420;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.club-heading{
+    color: #262626;
+/* font-family: "Sequel Sans"; */
+font-size: 28px;
+font-style: normal;
+font-weight: 515;
+line-height: 38px; /* 135.714% */
+}
+
+
+.club-ranking{
+     width: 50%;
+    height: 354px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.r-img-1{
+    display: flex;
+width: 23.586px;
+height: 24px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 23.586px;
+height: 24px;
+flex-shrink: 0;
+background: url(/assets/i.png) lightgray 50% / cover no-repeat;
+}
+
+.r-img-2{
+    display: flex;
+width: 23.586px;
+height: 24px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 23.586px;
+height: 24px;
+flex-shrink: 0;
+background: url(/assets/i2.png) lightgray 50% / cover no-repeat;
+
+
+}
