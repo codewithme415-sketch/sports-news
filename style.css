@@ -1190,3 +1190,88 @@ hr{
     justify-content: flex-end;
     /* gap: 30px; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sports news branch */
+
+
+.sports{
+width: 1440px;
+height: 4546px;
+background: #F9FAFC;
+
+}
+
+.sports-heading h2{
+    color: #262626;
+font-family: "Sequel Sans";
+font-size: 28px;
+font-style: normal;
+font-weight: 415;
+line-height: 38px; /* 135.714% */
+}
+
+.sports-img{
+    width: 370px;
+height: 248px;border-radius: 6px;
+background: url(<path-to-image>) lightgray -7.477px -2px / 102.15% 101.613% no-repeat;
+
+
+}
+
+.text-2{
+    display: inline-flex;
+padding: 6px 10px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+border: 0.75px solid #EBEEF3;
+}
+
+.text-2 h4{
+    color: #EBEEF3;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "DM Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
