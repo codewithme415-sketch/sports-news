@@ -1233,9 +1233,15 @@ hr{
 
 
 .sports{
-width: 1440px;
-height: 4546px;
+
+width: 1170px;
+height: 643px;
 background: #F9FAFC;
+margin: auto;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+flex-direction: column;
 
 }
 
@@ -1248,15 +1254,53 @@ font-weight: 415;
 line-height: 38px; /* 135.714% */
 }
 
-.sports-img{
+.sports-img-1{
     width: 370px;
 height: 248px;border-radius: 6px;
-background: url(<path-to-image>) lightgray -7.477px -2px / 102.15% 101.613% no-repeat;
+background: url(/assets/basketball-equipment\ 1.png) lightgray -7.477px -2px / 102.15% 101.613% no-repeat;
+
+position: relative;
+}
 
 
+
+.sports-img-2{
+    width: 370px;
+height: 248px;border-radius: 6px;
+background: url(/assets/source_hockey-players.jpg) lightgray -7.477px -2px / 102.15% 101.613% no-repeat;
+
+position: relative;
+}
+
+
+.sports-img-3{
+    width: 370px;
+height: 248px;border-radius: 6px;
+background: url(/assets/three-white-shuttlecocks-badminton-racquet\ 1.png) lightgray -7.477px -2px / 102.15% 101.613% no-repeat;
+
+position: relative;
+}
+
+.sports-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.sports-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .text-2{
+    position: absolute;
+    top: 20px;
+    right: 20px;
     display: inline-flex;
 padding: 6px 10px;
 justify-content: center;
@@ -1268,10 +1312,100 @@ border: 0.75px solid #EBEEF3;
 .text-2 h4{
     color: #EBEEF3;
 font-feature-settings: 'liga' off, 'clig' off;
-font-family: "DM Sans";
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: capitalize;
+}
+
+
+.profile{
+    display: flex;
+width: 322px;
+justify-content: flex-end;
+align-items: center;
+gap: 16px;
+}
+
+.profile img{
+    display: flex;
+width: 44px;
+height: 44px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 32px;
+}
+
+.profile h6{
+    flex: 1 0 0;
+    color: var(--Black, #3E3232);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.1px;
+}
+
+.s-w{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+}
+
+.s-w h6{
+    color: rgba(38, 38, 38, 0.60);
+/* font-family: "DM Sans"; */
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 100.9%; /* 14.126px */
+width: 92px;
+height: 14px;
+padding-bottom: 30px;
+}
+
+.sports-w{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.s-w h3{
+    width: 370px;
+    color: #262626;
+/* font-family: "Sequel Sans"; */
+font-size: 20px;
+font-style: normal;
+font-weight: 715;
+line-height: 29px; /* 131.818% */
+height: 87px;
+}
+
+.s-w h5{
+    width: 357px;
+    color: #696868;
+/* font-family: "DM Sans"; */
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 123.9%; /* 19.824px */
+height: 60px;
+}
+
+
+.sports-icon{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+
+
 }
