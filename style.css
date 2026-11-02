@@ -107,9 +107,16 @@ flex-shrink: 0;
     left: 0;
     height: 513px;
     filter: grayscale(100%);
+    overflow: hidden;
+    transition: 0.4s;
 
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
+              opacity 0.3s ease-in-out;
+}
 
-/* opacity: 1; */;
+.basketball-img:hover{
+    filter: brightness(100%); /* ...show the real image (no shadow) */
+  transform: scale(1.1);    /* ...and make it 10% bigger */
 }
 
 .hero-text h1{
@@ -151,8 +158,15 @@ background-clip: text;
     width: 760px;
     height: 500px;
      filter: grayscale(100%);
+     overflow: hidden;
 
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
+              opacity 0.3s ease-in-out;
+}
 
+.manwith-basketball:hover{
+    filter: brightness(100%); /* ...show the real image (no shadow) */
+  transform: scale(1.1);    /* ...and make it 10% bigger */
 }
 
 .race-container{
@@ -228,6 +242,13 @@ gap: 10px;
 
 border-radius: 6px;
 background: #262626;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
+            opacity 0.3s ease-in-out; 
+}
+
+.hero-btn:hover{
+    transition: 1s;
+    transform: scale(1.1);
 }
 
 .subscription{
@@ -318,7 +339,7 @@ border-radius: 0 6px 6px 0;
 background: #262626;
 }
 
-.right-content{
+.right-content{ 
 
     /* z-index: 6; */
     /* position: absolute; */
@@ -332,12 +353,22 @@ height: 385px;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 .right-content img{
         width: 520px;
-height: 385px;
+        height: 385px;
+    filter: grayscale(100%);
+    overflow: hidden;
+
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
+              opacity 0.3s ease-in-out;
+}
+
+.right-content img:hover{
+    filter: brightness(100%); /* ...show the real image (no shadow) */
+  transform: scale(1.1);    /* ...and make it 10% bigger */
 }
 
 .footer{
